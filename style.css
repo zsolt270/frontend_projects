@@ -1,0 +1,98 @@
+body{
+    width:1440px;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.container{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.l_content{
+    background-image: url("images/image-product-desktop.jpg");
+    background-size: cover;
+    border-radius: 5px 0px 0px 5px;
+    width: 280px; 
+    height: 400px;
+}
+.r_content{
+    margin: 10px 0px 10px 10px;
+    padding-right: 5px;
+    width: 280px;
+}
+#prize{
+    font-family: 'Fraunces', serif;
+}
+
+button{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+}
+.l_margin{
+    margin-left: 12px;
+}
+.text{
+    color: hsl(228, 12%, 48%);
+}
+button:hover{
+    background-color: hsl(158, 64%, 15%);
+}
+svg{
+    padding-right: 3px;
+    
+}
+@media only screen and (max-width:600px){
+    body{
+        width:375px;
+        
+    }
+    .container{
+        margin-left: 40px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .l_content{
+        background-image: url("images/image-product-mobile.jpg");
+        background-size:center/cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 300px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .mobile_under{
+        width: 100%;
+    }
+    .r_content{
+        width: 100%;
+        text-align: center;
+    }
+    .mobile_text{
+        margin-left: 70px;
+    }
+    .content_first{
+        margin-bottom: 0px;
+    }
+    .content_second{
+        padding-bottom: 10px;
+        margin-top: 0px;
+    }
+}
